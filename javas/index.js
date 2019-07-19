@@ -1,7 +1,7 @@
 var date;
 var month;
 var year;
-var gender:[50];
+var gender;
 
 if (month=1){
     month=13;
@@ -11,30 +11,33 @@ if (month=2){
     month=14;
     year --;
 }
-var dd= prompt("please enter your date:");
-var mm= prompt("please enter your month:");
+var dd= parseInt(prompt("please enter your date:"));
+var mm= parseInt(prompt("please enter your month:"));
 
-var yy= prompt("please enter the year:");
-
-var yy= year%100;
-var cc= year/100;
+var yy= parseInt(prompt("please enter the year:"));
+var yy= math.ceil (year%100);
+var cc= math.ceil (year/100);
 
 var day= dd+13*(mm+1)/5+yy+yy/4+cc/4+5*cc;
 
 day=day%7;
 
+
+ function days(){
+
 switch(day)
 {
     case 0:
-        if (var gender= "male");{
+        if ( gender= "male");{
         console.log("Hello Kwasi!");
-        else 
+        }
+        else {
         console.log("Hello there Akosua!");
     }
         break;
 
     case 1:
-        if (var gender="male");{
+        if (gender="male");{
            console.log("Hello kwadwo ");
            else
            console.log("Hello Adwoa");
@@ -42,38 +45,51 @@ switch(day)
         break;
         
      case 2 :
-          if (var gender="male") ;{
+          if (
+          gender="male") ;{
               console.log("Hello Kwabena");
-              else
+          }
+              else{
               console.log("Hello Abenaa");
               }
               break;
 
       case 3:  
-        if (var gender="male");{
+        if (gender="male");{
             console.log("Hello there Kwaku");
+        }
             else
             console.log("Hello there Akua");
         }   
         break;
 
       case 4:
-          if (var gender="male"); {
+          if ( gender="male"); {
               console.log("Hello Mr Yaw");
-              else
+          }
+              else{
               console.log("Hello there Yaa");
           }     
+          break;
+
       case 5:
-          if (var gender="male");{
+          if ( gender="male");{
               console.log("Hello there Mr Kofi");
-              else
+          }
+              else{
               console.log("Hello there Afua ")
-          }  
+          } 
+          break;
+          
       case 6:
-          if (var gender="male");{
+          if ( gender="male");{
               console.log("Hello there Mr Kwame");
-              else
+          }
+
+              else{
               console.log("Hello there Ama");
           }      
-}
+    }
+  }
 
+alert days(); 
