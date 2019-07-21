@@ -12,7 +12,7 @@ day=day%7;
 var days= day.toFixed;
 
 
-var akans=["Kwasi","Akosua","Kwadwo","Adwoa","Kwabena","Abena","Kwaku","Akua","Yaw","Yaa","Kofi","Afua","Kwame","Ama"]
+var akans=["Kwasi","Akosua","Kwadwo","Adwoa","Kwabena","Abena","Kwaku","Akua","Yaw","Yaa","Kofi","Afua","Kwame","Ama"];
 
 switch(day)
 {
