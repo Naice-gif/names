@@ -1,7 +1,4 @@
-function forms(){
-
-var input = document.getElementById("birthdate").value;
-var d=new Date (input);
+function myForm(){
 
 var dd= document.getElementById("dat").value;
 var mm= document.getElementById("mot").value;
@@ -20,67 +17,67 @@ var akans=["Kwasi","Akosua","Kwadwo","Adwoa","Kwabena","Abena","Kwaku","Akua","Y
 switch(day)
 {
     case 0:
-        if (day===0 && gender=== "male"){
-      document.getElementById("akanName").innerHTML='akans[0]';
+        if (days===0 && gen=== "male"){
+      document.getElementById("akanName").innerHTML= akans[0];
         }
         else {
-     document.getElementById("akanName").innerHTML='akans[1]';
+     document.getElementById("akanName").innerHTML= akans[1];
     }
         break;
 
     case 1:
-        if (day===1 && gender==="male"){
-            document.getElementById("akanName").innerHTML='akans[2]';
+        if (days===1 && gen==="male"){
+            document.getElementById("akanName").innerHTML= akans[2];
         
         }
            else{
-            document.getElementById("akanName").innerHTML='akans[3]';;
+            document.getElementById("akanName").innerHTML= akans[3];;
         }
         break;
         
     case 2:
-          if (day===2 && gender==="akans"){
-            document.getElementById("akanName").innerHTML='akans[4]';;
+          if (days===2 && gen==="akans"){
+            document.getElementById("akanName").innerHTML= akans[4];
           }
               else{
-            document.getElementById("akanName").innerHTML='akans[5]';;
+            document.getElementById("akanName").innerHTML= akans[5];
               }
               break;
 
       case 3:  
-        if (day===3 && gender==="male"){
-            document.getElementById("akanName").innerHTML='akans[6]';;
+        if (days===3 && gen==="male"){
+            document.getElementById("akanName").innerHTML= akans[6];
         }
             else{
-            document.getElementById("akanName").innerHTML='akans[7]';;
+            document.getElementById("akanName").innerHTML= akans[7];
         }
         break;
 
       case 4:
-          if (day===4 && gender==="male"){
-            document.getElementById("akanName").innerHTML='akans[8]';;
+          if (days===4 && gen==="male"){
+            document.getElementById("akanName").innerHTML= akans[8];
           }
               else{
-            document.getElementById("akanName").innerHTML='akans[9]';
+            document.getElementById("akanName").innerHTML= akans[9];
           }     
           break;
 
       case 5:
-          if ( day===5 && gender==="male"){
-            document.getElementById("akanName").innerHTML='akans[10]';;
+          if ( days===5 && gen==="male"){
+            document.getElementById("akanName").innerHTML= akans[10];
           }
               else{
-            document.getElementById("akanName").innerHTML='akans[11]';
+            document.getElementById("akanName").innerHTML= akans[11];
           } 
           break;
           
       case 6:
-          if ( day===6 && gender==="male"){
-            document.getElementById("akanName").innerHTML='akans[12]';
+          if ( days===6 && gen==="male"){
+            document.getElementById("akanName").innerHTML= akans[12];
           }
 
               else{
-            document.getElementById("akanName").innerHTML='akans[13]';
+            document.getElementById("akanName").innerHTML= akans[13];
           }      
         }
         return akans;
