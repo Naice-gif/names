@@ -1,10 +1,11 @@
 
-function ghan(){
+function ghana(){
 
 if (month=1){
     month=13;
     year --;
 }
+
 if (month=2){
     month=14;
     year --;
@@ -24,14 +25,15 @@ var cc= yy/100;
 var cc=d.getCentury();
 console.log(cc);
 
-if (document.getElementById("gender")checked){
+if (document.getElementById("gender").checked){
     var gender="male"
 }
+
 else{
  var gender="female"   
 }
 
-var day= parseInt dd+13*(mm+1)/5+yy+yy/4+cc/4+5*cc;
+var day= parseInt(dd+13*(mm+1)/5+yy+yy/4+cc/4+5*cc);
 
 day=day%7;
 alert(day);
@@ -41,7 +43,7 @@ alert(day);
 switch(day)
 {
     case 0:
-        if ( gender= "male"){
+        if (day===0 && gender=== "male"){
       document.getElementById("Akan-Name").innerHTML='Akosua';
         }
         else {
@@ -50,7 +52,7 @@ switch(day)
         break;
 
     case 1:
-        if (gender="male"){
+        if (day===1 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Kwadwo';
         }
            else{
@@ -59,7 +61,7 @@ switch(day)
         break;
         
     case 2:
-          if (gender="male"){
+          if (day===2 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Kwabena';;
           }
               else{
@@ -68,7 +70,7 @@ switch(day)
               break;
 
       case 3:  
-        if (gender="male"){
+        if (day===3 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Kwaku';;
         }
             else{
@@ -77,7 +79,7 @@ switch(day)
         break;
 
       case 4:
-          if ( gender="male"){
+          if (day===4 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Yaw';;
           }
               else{
@@ -86,7 +88,7 @@ switch(day)
           break;
 
       case 5:
-          if ( gender="male"){
+          if ( day===5 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Kofi';;
           }
               else{
@@ -95,13 +97,12 @@ switch(day)
           break;
           
       case 6:
-          if ( gender="male"){
+          if ( day===6 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Kwame';
           }
 
               else{
             document.getElementById("Akan-Name").innerHTML='Ama';
           }      
+        }
     }
-  
-
