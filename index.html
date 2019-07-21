@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="javas/index.js"></script>
   
     
 </head>
 <body>
+   <div class="container">
+      <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit/cdn/1f38f8fe-4476-40f1-8fcb-9875c26d6751/da53fb3a-834e-4d3c-8cb6-a91555738672_560_420.jpg" class="card-img" alt="birthnames" height= 1000px>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Ghana</h5>
+                  <p class="card-text">This is to enlighten you about your actual birth name, <br> using the date and month and year you were born on, <br>all you have to do is to insert the real date and month and year, and thy shall know what you aught to have been called. <br> up to you to play the game!</p>
+                  <p class="card-text"><small class="text-muted">You deserve to know!!</small></p>
+              
     <form>
         <div class="Akan-Name">
           <label for="exampleInputEmail1">First Name</label>
@@ -23,25 +36,26 @@
 
              <div>
               <label>
-                 <input type="radio" name="gender">
+                 <P><strong>Your Gender!</strong></P>
+                 <input id="mal" type="radio" name="gender">
                     Male
                  </label>
 
               <label>
-                 <input type="radio" name="gender">
+                 <input id="fema" type="radio" name="gender">
                  Female
               </label>
             </div>
 
 
          <div>       
-             <h1>Add your date of birth</h1>
+            <P><strong>Your Date of Birth!</strong></P>
              <input type="date"/><br>
             </div>
 
 
             <div>
-              <input type="submit"/>
+              <input id="sub" type="button" onclick="forms()" value="submit">
       </div> 
 
 
@@ -50,9 +64,12 @@
                 <input type="Akans" class="form-control" id="exampleInputAge1" placeholder="Ghanians">
               </div>
       
+            </div>
+         </div>
+       </div>
+     </div>
 
-
-     
+            </div>
 </body>
 
 </html>
