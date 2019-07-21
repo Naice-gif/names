@@ -71,7 +71,7 @@ switch(day)
           } 
           break;
           
-      case 6:
+      default:
           if ( days===6 && gen==="male"){
             document.getElementById("akanName").innerHTML= akans[12];
           }
