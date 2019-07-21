@@ -1,15 +1,7 @@
 
-function ghana(){
 
-if (month=1){
-    month=13;
-    year --;
-}
-
-if (month=2){
-    month=14;
-    year --;
-}
+var input = document.getElementById("birthdate").value;
+var d=new Date (input);
 
 var dd= d.getDate();
 console.log(dd);
@@ -28,7 +20,6 @@ console.log(cc);
 if (document.getElementById("gender").checked){
     var gender="male"
 }
-
 else{
  var gender="female"   
 }
@@ -36,11 +27,11 @@ else{
 var day= parseInt(dd+13*(mm+1)/5+yy+yy/4+cc/4+5*cc);
 
 day=day%7;
-alert(day);
+console.log(day);
 
 
 
-switch(day)
+switch(ghana)
 {
     case 0:
         if (day===0 && gender=== "male"){
@@ -54,6 +45,7 @@ switch(day)
     case 1:
         if (day===1 && gender==="male"){
             document.getElementById("Akan-Name").innerHTML='Kwadwo';
+        
         }
            else{
             document.getElementById("Akan-Name").innerHTML='Akosua';;
@@ -105,4 +97,4 @@ switch(day)
             document.getElementById("Akan-Name").innerHTML='Ama';
           }      
         }
-    }
+    
