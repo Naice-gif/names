@@ -1,12 +1,37 @@
 #every{
-        float: center;
         width: 100%;
         background-image:url(https://static01.nyt.com/images/2018/04/04/magazine/15mag-maternity-image11/15mag-maternity-ss-temp-slide-SN4S-jumbo.jpg);
         background-repeat:no-repeat;
-      background-size:cover; 
+        background-size:cover;
+        border-radius:100%;
+    }
+
+
+#title{
+    color:black;
+    text-align: right;
+
 }
 
 #mine{
-    color:black;
+    text-align: center;
+    color:whitesmoke;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    
+}
+footer{
+    color:white;
+    background-color:black;
+    border-radius:50%;
+    text-align: center;
 }
 
+#sub{
+    background-color:white;
+    color:black;
+    border:100%;
+}
+#fin{
+    text-align:right;
+}
