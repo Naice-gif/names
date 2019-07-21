@@ -3,33 +3,17 @@ function forms(){
 var input = document.getElementById("birthdate").value;
 var d=new Date (input);
 
-var dd= d.getDate();
-console.log(dd);
-
-var mm= d.getMonth();
-console.log(mm);
-
-var yy= year%100;
-var yy= d.getFullYear();
-console.log(yy);
-
-var cc= yy/100;
-var cc=d.getCentury();
-console.log(cc);
-
-if (document.getElementById("mal", "fema").checked){
-    var gender="male"
-}
-else{
- var gender="female"   
-}
+var dd= document.getElementById("dat").value;
+var mm= document.getElementById("mot").value;
+var yy= document.getElementById("yar").value;
+var cc= document.getElementById("cent").value;
+var gen= document.getElementById("mal", "fema").value;
+  
 
 var day= parseInt(dd+13*(mm+1)/5+yy+yy/4+cc/4+5*cc);
-
 day=day%7;
-var days=
+var days= day.toFixed;
 
-console.log(day);
 
 var akans=["Kwasi","Akosua","Kwadwo","Adwoa","Kwabena","Abena","Kwaku","Akua","Yaw","Yaa","Kofi","Afua","Kwame","Ama"]
 
