@@ -1,5 +1,9 @@
-.container{
-    padding:200px;
-    border-radius:200px;
-    color:pink;
+#every{
+        float: center;
+        width: 50%;
+        padding:5px;
+        background-image:url(https://static01.nyt.com/images/2018/04/04/magazine/15mag-maternity-image11/15mag-maternity-ss-temp-slide-SN4S-jumbo.jpg);
+
+      
 }
+
