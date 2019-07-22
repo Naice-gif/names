@@ -2,7 +2,7 @@
 ## Project Description!
 This is a way of helping most of the members of the society understand know what they aught to have called their children or rather been called themselves. The project is built with Javscript codes and designed using HTML, CSS and Bootstrap. All the information is stated above; the only thing the user is required to do is read and accept to follow the instructions if they want to know their Akan names. 
 
-## AUTHOR: Naice Uwitonze!<p>&copy; Naice Uwitonze @2019</p>
+## AUTHOR: Naice Uwitonze!
 She is a learner who is still struggling with getting the hang of everything that deals with the logics and other programming related stuff. She is engaged in Software engineering and hoping to be more than just a dreamer.
 
 ## INSTRUCTIONS:
